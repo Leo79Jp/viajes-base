@@ -1646,6 +1646,16 @@ h6 {
   grid-row: 1/3;
   row-gap: 15px;
 }
+.img_1, .img_2, .img_3, .img_4, .img_5{
+  position: relative;
+}
+.img_1 span, .img_2 span, .img_3 span, .img_4 span, .img_5 span{
+  position: absolute;
+  color: #ffffff;
+  bottom: 15px;
+  left: 15px;
+}
+
 .div_flex{
   display: flex;
   align-content: center;
